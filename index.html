@@ -67,18 +67,19 @@
 
   </header>
   <main class="max-w-screen-xl mx-auto px-14 lg:px-28">
-    <section class="ml-40 mt-8">
-        <div>
-            <div><img src="pictures/banner.png" alt=""></div>
+    <section>
+        <div  class=" ml-40 mt-8">
+            <div><img class="ml-12" src="pictures/banner.png" alt=""></div>
             <div>
-                <h3 class="text-3xl">A barn house of this design has a<br>striking apperance</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor ea dolorem ipsa nihil maxime,<br> labore eum veniam tenetur nam, deleniti<br> asperiores odit necessitatibus, corrupti sit ipsum saepe quibusdam voluptates accusamus!</p>
+                <h3 class="text-5xl font-bold">A barn house of this design has a<br>striking apperance</h3>
+                <p class="mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor ea dolorem ipsa nihil maxime,<br> labore eum veniam tenetur nam, deleniti<br> asperiores odit necessitatibus, corrupti sit ipsum saepe quibusdam voluptates accusamus!</p>
                 <button>View details</button>
             </div>
         </div>
       </section>
-      <section class="mt-12">
-        <div class="flex">
+      <section class="py-8 lg:py-24">
+        <!-- class="max-w-screen-xl mx-auto px-14 lg:px-28"......"mt-12"-->
+        <div class="lg:flex">
         
             <div>
                 <button class="bg-gray-400">About Us</button>
@@ -86,27 +87,27 @@
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor ea dolorem ipsa nihil maxime,<br> labore eum veniam tenetur nam, deleniti<br> asperiores odit necessitatibus, corrupti sit ipsum saepe quibusdam voluptates accusamus!</p>
                 <div class="card card-side bg-base-100 shadow-xl">
                     <figure>
-                      <img
+                      <img class="ml-3"
                         src="pictures/commercial.png"
                         alt="Movie" />
                     </figure>
                     <div class="card-body">
-                      <h2 class="card-title">New movie is released!</h2>
+                      <h2 class="card-title">Commercial</h2>
                       <p>Click the button to watch on Jetflix app.</p>
                       <div class="card-actions justify-end">
                       </div>
                     </div>
                   </div>
                   <!--2nd-->
-                  <div class="card card-side bg-base-100 shadow-xl">
+                  <div class="card card-side bg-base-100 shadow-xl mt-3">
                     <figure>
-                      <img
+                      <img class="ml-3"
                         src="pictures/residential.png"
                         alt="Movie" />
                     </figure>
                     <div class="card-body">
-                      <h2 class="card-title">New movie is released!</h2>
-                      <p>Click the button to watch on Jetflix app.</p>
+                      <h2 class="card-title">Residential</h2>
+                      <p>The burn house captivates with its bed of rustic.</p>
                       <div class="card-actions justify-end">
                       </div>
                     </div>
@@ -117,31 +118,32 @@
             
         </div>
     
-      </section>
+      </section >
       <!--Our Work Process-->
       <section class="py-8 lg:py-24">
-        <div class="text-center mb-8">
-            <h1 class="text-3xl md:text-4xl font-bold mb-5">Our Work Process</h1>
+        <!---->
+        <div class="text-center mb-6">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-5">Our Work Process</h1>
             <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Voluptatibus sint accusamus veniam reiciendis eos harum, explicabo .</p>
         </div>
-        <div class="grid grid-cols-4 gap-5 text-center">
+        <div class="lg:grid lg:grid-cols-4 sm:3 lg:gap-5 text-center">
          <!--Product card-->
-         <div class="bg-purple-400 rounded-md p-4">
+         <div class="bg-purple-400 rounded-md p-4 mt-1">
             <img src="pictures/concept.png" alt="">
             <h2 class="text-left font-bold">Concept</h2>
             <p class="text-left">The burn house captivates <br>with its bed of rustic  charm <br>and modern.</p>
          </div>
-         <div class="bg-yellow-600 rounded-md p-4">
+         <div class="bg-yellow-600 rounded-md p-4 mt-1">
             <img src="pictures/flow-chart.png" alt="">
             <h2 class="text-left font-bold">Design Process</h2>
             <p class="text-left">The burn house captivates <br>with its bed of rustic  charm <br>and modern.</p>
          </div>
-         <div class="bg-lime-600 rounded-md p-4">
+         <div class="bg-lime-600 rounded-md p-4 mt-1">
             <img src="pictures/vision.png" alt="">
             <h2 class="text-left font-bold">Super Vision</h2>
             <p class="text-left">The burn house captivates <br>with its bed of rustic  charm <br>and modern.</p>
          </div>
-         <div class="bg-blue-400 rounded-md p-4">
+         <div class="bg-blue-400 rounded-md p-4 mt-1">
             <img src="pictures/budget-planning.png" alt="">
             <h2 class="text-left font-bold">Budget Planning</h2>
             <p class="text-left">The burn house captivates <br>with its bed of rustic  charm <br>and modern.</p>
@@ -149,11 +151,35 @@
         </div>
 
       </section>
-      <!--Again try-->
+      <!--Latest Portfolio-->
+      <section class="mt-6">
+        <div class="text-center">
+            <button class="bg-slate-400">Explore our latest works</button>
+            <h2 class="text-5xl font-bold">Our Latest Portfolio</h2>
+            <p class="mt-4">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+        </div>
+      </section>
       
+     
   </main>
   <footer>
-
-  </footer>
+    <!--background image page-->
+    <section class=" mt-6 hero min-h-screen"
+    style="background-image: url(pictures/bg.jpg); max-w-40">
+      <div class="text-center">
+        <button class="bg-slate-400">Lets Connect</button>
+        <h2  class="text-5xl font-bold">Lets Discuss Next Projects</h2>
+        <p class="mt-4 mb-5">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+        <input class="w-96 mt-2" type="text" placeholder="First Name*">
+        <input class="w-96 mt-2" type="text" placeholder="Last Name*"><br>
+        <input class="w-96 mt-2" type="text" placeholder="Phone Number*">
+        <input class="w-96 mt-2" type="text" placeholder="Email Number*"><br>
+        <input class="w-11/12 h-40 mt-2" type="text" placeholder="Write your massage here"><br>
+        <button class="w-11/12 bg-green-300 mt mt-2"> Send Mail </button>
+      </section>
+        <section class="text-center bg-black lg:h-80">
+            <h2>assfghj</h2>
+        </section>
+        </footer>
 </body>
 </html>
