@@ -47,7 +47,7 @@
               
             </ul>
           </div>
-          <a class="btn btn-ghost text-2xl font-bold">Rinterio</a>
+          <a class="btn btn-ghost text-2xl font-bold"><span></span> <span>Rinterio</span></a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1 text-xl font-[500]">
@@ -82,7 +82,7 @@
         <div class="lg:flex">
             <div>
                 <img class="mb-4" src="pictures/Vector.png" alt="">
-                <button class="bg-gray-400">About Us</button>
+                <button class="bg-gray-400 p-2 rounded-lg">About Us</button>
                 <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-5">We design thoughtful,<br>liveable spaces</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor ea dolorem ipsa nihil maxime,<br> labore eum veniam tenetur nam, deleniti<br> asperiores odit necessitatibus, corrupti sit ipsum saepe quibusdam voluptates accusamus!</p>
                 <div class="card card-side bg-base-100 shadow-xl">
@@ -114,7 +114,7 @@
                   </div>
 
             </div>
-            <div><img src="pictures/Rectangle.png" alt=""></div>
+            <div class="ml-4"><img src="pictures/Rectangle.png" alt=""></div>
             
         </div>
     
@@ -123,6 +123,7 @@
       <section class="py-8 lg:py-24">
         <!---->
         <div class="text-center mb-6">
+          <button class="bg-slate-400 mb-3 rounded-lg p-2">Explore our latest works</button>
             <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-5">Our Work Process</h1>
             <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Voluptatibus sint accusamus veniam reiciendis eos harum, explicabo .</p>
         </div>
@@ -154,10 +155,42 @@
       <!--Latest Portfolio-->
       <section class="mt-6">
         <div class="text-center">
-            <button class="bg-slate-400">Explore our latest works</button>
+            <button class="bg-slate-400 rounded-lg p-2">Explore our latest works</button>
             <h2 class="text-5xl font-bold">Our Latest Portfolio</h2>
             <p class="mt-4">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
 </div>
+<div>
+    <div class="grid grid-cols-4 gap-6">
+        <div class="lg:col-span-3 col-span-4  grid grid-cols-4 gap-6 shadow rounded-md p-4">
+        <div class="lg:col-span-1 col-span-4"><img class="h-[200px]" src="pictures/img1.png" alt=""></div>
+        <div class="lg:col-span-3 col-span-4 flex flex-col justify-between">
+            <h2 class="lg:text-2xl font-bold mt-1">Commercial</h2>
+            <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern </p>
+            <a class="font-bold" href="">View Details</a>
+        </div> 
+        </div>
+        <div class="lg:col-span-1 col-span-4 shadow-md p-4">
+            <img class="w-full rounded-md h-[200px]" src="pictures/article1.png" alt="">
+        </div>
+
+    </div>
+</div>
+<div class="grid grid-cols-4 gap-6 mt-10">
+  <div class="lg:col-span-1 col-span-4 p-4 shadow rounded-md">
+    <img class="w-full rounded-md h-[200px]" src="pictures/img3.png" alt="">
+  </div>
+  <div class="lg:col-span-2 col-span-4 grid grid-cols-1 lg:grid-cols-2 gap-6 p-4 shadow rounded-md">
+    <div><img class="w-full rounded-md h-[200px]" src="pictures/img4.png" alt=""></div>
+    <div class="flex flex-col justify-between">
+      <h2  class="lg:text-2xl font-bold mt-1">Commercial</h2>
+      <p>The barn house captivates with its blend of rustic charm and modern.</p>
+      <a class="font-bold" href="">View detsils</a>
+
+    </div>
+  </div>
+  <div class="lg:col-span-1 col-span-4 p-4 shadow rounded-md"> <img class="w-full rounded-md h-[200px]" src="pictures/img5.png" alt=""></div>
+</div>
+
       </section>
        <!--Extra Point-->
        <section class="text-center ">
@@ -212,24 +245,25 @@
   </main>
   <footer>
     <!--background image page-->
-    <section class=" mt-6 hero min-h-screen"
-    style="background-image: url(pictures/bg.jpg); max-w-40">
+    <section class=" mt-6 min-h-screen bg-cover h-60"
+    style="background-image: url(pictures/bg.jpg);">
       <div class="text-center">
-        <button class="bg-slate-400">Lets Connect</button>
-        <h2  class="text-5xl font-bold">Lets Discuss Next Projects</h2>
-        <p class="mt-4 mb-5">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
-        <input class="w-96 mt-2 rounded-md" type="text" placeholder="First Name*">
+        <button class="bg-slate-400 lg:mt-32 p-2 rounded-lg">Lets Connect</button>
+        <h2  class="lg:text-5xl text-4xl font-bold mt-6">Lets Discuss Next Projects</h2>
+        <p class="mt-4 mb-5 w-full p-4">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+        <form class="px-6"> <input class="w-96 mt-2 rounded-md" type="text" placeholder="First Name*">
         <input class="w-96 mt-2 rounded-md" type="text" placeholder="Last Name*"><br>
         <input class="w-96 mt-2 rounded-md" type="text" placeholder="Phone Number*">
         <input class="w-96 mt-2 rounded-md" type="text" placeholder="Email Number*"><br>
-        <input class="w-11/12 h-40 mt-2 rounded-md" type="text" placeholder="Write your massage here"><br>
-        <button class="w-11/12 bg-green-300 mt mt-2 font-bold rounded-md"> Send Mail </button>
+        <textarea class="w-full mt-2 rounded-md" rows="8" placeholder="Write your massage here*"></textarea><br>
+        <button class="w-11/12 bg-green-300 mt mt-2 font-bold rounded-md" type="submit"> Send Mail </button></form>
+       
       </section>
         <section class=" bg-black">
             <div class="text-center p-6">
                 <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-5">Rinterio</h2>
                 <p>The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
-               <ul class="menu menu-horizontal px-1 text-xl font-[500]">
+               <ul class="flex justify-center gap-10 flex-col lg:flex-row items-center menu menu-horizontal px-1 text-xl font-[500]">
                   <li><a><b>Home</b></a></li>
                   <li><a>Service</a></li>
                   <li><a>Portfolio</a></li>
